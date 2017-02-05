@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/rudorpu99/rudorpu99.github.com/issues"
   },
-  "homepage": "https://github.com/rudorpu99/rudorpu99.github.com#readme"
+  "homepage": "https://github.com/rudorpu99/rudorpu99.github.com#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
 }
