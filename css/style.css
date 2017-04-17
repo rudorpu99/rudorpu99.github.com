@@ -25,7 +25,8 @@ section h2{font-weight:700;color:#58595b;font-size:40px;line-height:52px;backgro
 #aboutMe dl{overflow:hidden;margin-bottom:30px}
 #aboutMe dt{color:#414042;font-size:16px;font-weight:700;line-height:33px;padding-left:0px}
 #aboutMe dd{color:#58595b;font-size:16px;font-weight:400;line-height:33px;padding:0px}
-#aboutMe h3{background:url("../images/bg_h3_aboutMe.gif") 0% 0% no-repeat;color:#58595b;font-size:23px;font-weight:700;line-height:51px;display:inline-block}
+#aboutMe h3{position:relative;color:#58595b;font-size:23px;font-weight:700;line-height:51px;display:inline-block}
+#aboutMe h3{display: inline-block;position: absolute;top: 0;left: 0px;width: 29px;height: 3px;background-color: #db4153;content: ''}
 #aboutMe p{color:#58595b;font-size:16px;line-height:24px}
 #career ul{padding:0px}
 #career ul li{border:1px solid #d1d3d4;overflow:hidden;margin-bottom:18px}
@@ -40,6 +41,7 @@ section h2{font-weight:700;color:#58595b;font-size:40px;line-height:52px;backgro
 #career .text_wrap h3{background:url("../images/bg_career_h3.png") 0% 0% no-repeat;font-size:16px;color:#fff;line-height:33px;padding:0px 6px 4px}
 #career .text_wrap dl{}#career .text_wrap dt{color:#58595b;font-size:16px;line-height:24px;font-weight:700}
 #career .text_wrap dd{color:#58595b;font-size:16px;line-height:24px;font-weight:400}
+#career .text_wrap dd:before{margin-right:4px;content:''}
 #portfolio #gallery-filter{margin-bottom:35px}
 #portfolio #gallery-filter > button{color:#58595b;padding:0px 15px;font-size:16px;margin:0px 10px}
 #portfolio #gallery-filter > button.active{color:#fff;background-color:#db4153}
@@ -95,6 +97,7 @@ section h2{font-weight:700;color:#58595b;font-size:40px;line-height:52px;backgro
 /*contacts*/
 #contacts p{font-size:18px;line-height:28px;color:#58595b;margin-bottom:50px}
 #contacts table{border-top:3px solid #db4153}
+#contacts table caption{padding:0}
 #contacts table th{color:#58595b;font-size:20px;font-weight:400;padding:12px 10px 12px 20px}
 #contacts table td{padding:4px}
 #contacts table .form-control{border-radius:0px;border:1px solid #d1d3d4;font-size:18px;padding:12px}
