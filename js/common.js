@@ -3,12 +3,11 @@
 
 /*스크롤 효과*/
 	$(document).ready(function(){
-		$('nav a').click(function(e){
-			$("#myNavbar").attr("aria-expanded", "false").css("height","1px").removeClass("in");
+		$("nav a").click(function(e){
+			$("#myNavbar").attr("aria-expanded","false").css("height","1px").removeClass("in");
 			$.scrollTo(this.hash || 0, 1000);
 			e.preventDefault();
-		});	
-		
+		});
 	});
 
 
@@ -46,7 +45,7 @@ $(function(){
 			filteredData = [];
 
 		/*포트폴리오 배치*/
-	  
+
 		$container.isotope({
 			columnWidth: 110,
 			gutter:50,
@@ -55,7 +54,7 @@ $(function(){
 		});
 
 		$.getJSON('portfolio.json',initGallery);
-			
+
 			function initGallery (data){
 				allData = data;
 				filteredData = allData;
@@ -74,7 +73,7 @@ $(function(){
 			function addItems (filter){
 				var elements = [],
 					slicedData = filteredData.slice(added, added + addItemCount);
-			
+
 				$.each(slicedData, function(i,item){
 					var itemHTML =
 						'<li id="' + item.modal + '" class="gallery-item is-loading">' +
@@ -84,14 +83,14 @@ $(function(){
 							'<dt>' + item.title + '</dt>' +
 							'<dd class="label">' + item.label + '</dd>' +
 							'<dd class="role">' + item.role + '</dd>' +
-							'<dd class="ex">' + item.ex + '</dd>' +			
+							'<dd class="ex">' + item.ex + '</dd>' +
 						'</dl>' +
 						'</a>' +
 						'</li>';
 					elements.push($(itemHTML).get(0));
 
-				});		
-				
+				});
+
 				$container
 					.append(elements)
 					.imagesLoaded(function(){
@@ -104,13 +103,13 @@ $(function(){
 					});
 
 
-					
+
 					$('.gallery-item').click(function(){
 						var clickedID = this.id;
 						var clickedIDNumber = clickedID.substr(9,2);
 						$("#myModal").modal({backdrop: true});
-						$("#pofol_wrap").load('/contents/portfolio/modal_portfolio'+clickedIDNumber+'.php');
-											
+						$("#pofol_wrap").load('/contents/portfolio/modal_portfolio'+clickedIDNumber+'.html');
+
 					});
 					$('#myModal .close').click(function(){
 						$("#pofol_wrap").empty();
@@ -142,7 +141,7 @@ $(function(){
 					});
 
 				}
-			addItems(true);			
+			addItems(true);
 		}
 	});
 });
@@ -178,4 +177,3 @@ function chkMailFrm() {
 
 
 }
-
