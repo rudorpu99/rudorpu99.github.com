@@ -26,7 +26,7 @@ section h2{font-weight:700;color:#58595b;font-size:40px;line-height:52px;backgro
 #aboutMe dt{color:#414042;font-size:16px;font-weight:700;line-height:33px;padding-left:0px}
 #aboutMe dd{color:#58595b;font-size:16px;font-weight:400;line-height:33px;padding:0px}
 #aboutMe h3{position:relative;color:#58595b;font-size:23px;font-weight:700;line-height:51px;display:inline-block}
-#aboutMe h3{display: inline-block;position: absolute;top: 0;left: 0px;width: 29px;height: 3px;background-color: #db4153;content: ''}
+#aboutMe h3:after{display: inline-block;position: absolute;top: 0;left: 0px;width: 29px;height: 3px;background-color: #db4153;content: ''}
 #aboutMe p{color:#58595b;font-size:16px;line-height:24px}
 #career ul{padding:0px}
 #career ul li{border:1px solid #d1d3d4;overflow:hidden;margin-bottom:18px}
