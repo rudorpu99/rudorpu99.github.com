@@ -1,0 +1,94 @@
+
+
+/*
+ * Nanum Gothic (Korean) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+
+@font-face {  font-family: 'NanumSquareR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NanumSquareR.eot);
+  src: url(../fonts/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumSquareR.woff) format('woff'),
+       url(../fonts/NanumSquareR.ttf) format('truetype');
+}
+
+
+@font-face {  font-family: 'NanumSquareB';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/NanumSquareB.eot);
+  src: url(../fonts/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumSquareB.woff) format('woff'),
+       url(../fonts/NanumSquareB.ttf) format('truetype');
+}
+
+
+
+@font-face {  font-family: 'NanumBarunGothicUltraLight';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NanumBarunGothicUltraLight.eot);
+  src: url(../fonts/NanumBarunGothicUltraLight.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothicUltraLight.woff) format('woff'),
+       url(../fonts/NanumBarunGothicUltraLight.ttf) format('truetype');
+}
+
+
+@font-face {  font-family: 'NanumBarunGothicLight';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/NanumBarunGothicLight.eot);
+  src: url(../fonts/NanumBarunGothicLight.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothicLight.woff) format('woff'),
+       url(../fonts/NanumBarunGothicLight.ttf) format('truetype');
+}
+
+
+@font-face {  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/NanumBarunGothic.eot);
+  src: url(../fonts/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothic.woff) format('woff'),
+       url(../fonts/NanumBarunGothic.ttf) format('truetype');
+}
+
+@font-face {  font-family: 'NanumBarunGothicBold';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/NanumBarunGothicBold.eot);
+  src: url(../fonts/NanumBarunGothicBold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothicBold.woff) format('woff'),
+       url(../fonts/NanumBarunGothicBold.ttf) format('truetype');
+}

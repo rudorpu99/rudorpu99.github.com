@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>Rudorpu study room</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<link href="css/basic.css" rel="stylesheet" media="screen">
+	<link href="css/reset.css" rel="stylesheet" media="screen">
+<style>
+
+</style>
+
+</head>
+
+<body>
+<div class="mt10">
+	<h1>제이쿼리 선택자</h1>
+
+	<table>
+		<thead>
+			<tr>
+				<td>표기</td>
+				<td>설명</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>$("*")</td>
+				<td>모든 엘리먼트 선택</td>
+			</tr>
+			<tr>
+				<td>$(this)</td>
+				<td>선택한 엘리먼트</td>
+			</tr>
+			<tr>
+				<td>$("p.intro")</td>
+				<td> 모든 p 엘리먼트 중 클래스가intro인 엘리먼트</td>
+			</tr>
+			<tr>
+				<td>$("p:first")</td>
+				<td>첫번째 p엘리먼트</td>
+			</tr>
+			<tr>
+				<td>$("ul li:first")</td>
+				<td>첫번째 목록중 첫번째 li를 선택</td>
+			</tr>
+			<tr>
+				<td>$("ul li:first-child")</td>
+				<td>모든 목록의 첫번째 li 모두를 선택</td>
+			</tr>
+			<tr>
+				<td>$("[href]")</td>
+				<td>href 속성이 있는 모든 엘리먼트</td>
+			</tr>
+			<tr>
+				<td>$("a[target='_blank']")</td>
+				<td>모든 a엘리먼트중 속성이 _blank인 엘리먼트</td>
+			</tr>
+			<tr>
+				<td>$("a[target!='_blank']")</td>
+				<td>모든 a엘리먼트중 속성이 _blank가 아닌 엘리먼트</td>
+			</tr>
+			<tr>
+				<td>$(":button")</td>
+				<td>모든 버튼 타입 엘리먼트(인풋 속성이 버튼인것도 포함)</td>
+			</tr>
+			<tr>
+				<td>$("tr:even")</td>
+				<td>홀수인 tr 엘리먼트</td>
+			</tr>
+			<tr>
+				<td>$("tr:odd")</td>
+				<td>짝수인 tr 엘리먼트</td>
+			</tr>
+	</table>
+</div>
+
+<div class="mt10">
+	<h1>제이쿼리 이벤트</h1>
+
+	<table>
+		<thead>
+			<tr>
+				<td colspan="2">마우스 이벤트</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>click</td><td>클릭시</td>
+			</tr>
+			<tr>
+				<td>dblclick</td><td>더블클릭시</td>
+			</tr>
+			<tr>
+				<td>mouseenter</td><td>마우스가 올라갔을때(마우스를 치워도 유지,한번만 발생)</td>
+			</tr>
+			<tr>
+				<td>mouseover</td><td>마우스가 올라갔을때(이동하는동안 계속해서발생)</td>
+			</tr>
+			<tr>
+				<td>mouseleave</td><td>마우스가 떠날때(한번만 발생)</td>
+			</tr>
+			<tr>
+				<td>mouseout</td><td>마우스가 떠날때</td>
+			</tr>
+			<tr>
+				<td>mousedown</td><td>마우스 누를때</td>
+			
+			</tr>
+			<tr>
+				<td>mouseup</td><td>마우스 눌렀다가 뗄때</td>
+			</tr>
+			<tr>
+				<td>mousemove</td><td>마우스 움직일때</td>
+			</tr>
+			<tr>
+				<td>hover</td><td>마우스 올라갔을때(마우스를 치우면 복원)</td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<td colspan="2">키보드 이벤트</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>keypress</td><td>텍스트가 입력될때 실행</td>
+			</tr>
+			<tr>
+				<td>keydown</td><td>키를 누르는 동안 실행</td>
+			</tr>
+			<tr>
+				<td>keyup</td><td>키를 눌렀다가 떼는순간 실행</td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<td colspan="2">폼 이벤트</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>submit</td><td>폼을 전송할때 실행</td>
+			</tr>
+			<tr>
+				<td>change</td><td>인풋,셀렉트,텍스트어리어의 값이 변경되었을때 실행?</td>
+			</tr>
+			<tr>
+				<td>focus</td><td>선택됐을 때</td>
+			</tr>
+			<tr>
+				<td>blur</td><td>포커스를 잃었을때</td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<td colspan="2">도큐먼트/윈도우 이벤트</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>loads</td><td>윈도우를 열때 실행</td>
+			</tr>
+			<tr>
+				<td>resize</td><td>윈도우 크기 변경시 실행</td>
+			</tr>
+			<tr>
+				<td>scroll</td><td>문서를 스크롤하는 동안 실행</td>
+			</tr>
+			<tr>
+				<td>unloads</td><td>윈도우를 닫을때 실행</td>
+			</tr>
+			<tr>
+				<td>ready</td><td>DOM구조가 로드되고 이벤트 처리후 실행</td>
+			</tr>
+			<tr>
+				<td>select</td><td>선택되면 실행</td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<td colspan="2">기타</td>
+			</tr>
+		</thead>
+		<tbody>
+			
+			<tr>
+				<td>bind</td><td>여러이벤트를 한꺼번에 설정해줄수있다, 이벤트와 실행될 함수를 인자로 받아 연결해줌</td>
+			</tr>
+			<tr>
+				<td>delegate</td><td>특정요소의 집합을 기준으로 여러이벤트를 등록해줌</td>
+			</tr>
+			<tr>
+				<td>on</td><td>요소에 이벤트 핸들러를 연결합니다</td>
+			</tr>
+			<tr>
+				<td>off</td><td>() 메소드와 연결된 이벤트 핸들러를 제거</td>
+			</tr>
+			<tr>
+				<td>off</td><td>선택된 요소에 하나 이상의 이벤트 핸들러를 추가합니다. 이 핸들러는 요소 당 한 번만 트리거 될 수 있습니다</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+		
+</body>
+</html>

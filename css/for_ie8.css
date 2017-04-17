@@ -1,0 +1,41 @@
+fieldset {
+    padding: 0px!important;
+    margin: 0px!important;
+    border: none!important;
+}
+
+
+
+
+#portfolio .portfolio_list > li{
+	width:23%;
+}
+
+@media screen and (min-width: 992px){
+
+	#portfolio .portfolio_list > li{
+		width:23%;
+	}
+
+
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 760px) {
+	#portfolio .portfolio_list > li{
+			width:31.33%;
+	}
+}
+
+@media screen and (max-width:760px) and (min-width: 450px) {
+
+	#portfolio .portfolio_list > li{
+			width:48%;
+	}
+}
+@media screen and (max-width: 450px) {
+	#portfolio .portfolio_list > li {
+		width: 98%;
+	}
+}
+

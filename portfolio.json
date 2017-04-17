@@ -1,0 +1,209 @@
+[
+	{
+		"title":"현승물산",
+		"modal":"modalList01",
+		"category":"web",
+		"label":"웹",
+		"role":"서브 디자인, 코딩",
+		"ex":"종이컵, 과자 소분/제조기업 홈페이지",
+		"img":"images/img_portfolio01_01.jpg"
+	},	
+	{
+		"title":"경상북도청소년수련원(영문)",
+		"modal":"modalList02",
+		"category":"web",
+		"label":"웹",
+		"role":"서브 디자인, 코딩",
+		"ex":"청소년수련원 영문 홈페이지",
+		"img":"images/img_portfolio02_01.jpg"
+	},
+	{
+		"title":"아이썬에스엔씨",
+		"modal":"modalList03",
+		"category":"web",
+		"label":"웹",
+		"role":"서브 디자인, 코딩",
+		"ex":"솔루션업체 홈페이지",
+		"img":"images/img_portfolio03_01.jpg"
+	},
+	{
+		"title":"WYLL",
+		"modal":"modalList04",
+		"category":"web",
+		"label":"웹",
+		"role":"서브 디자인, 코딩",
+		"ex":"리더십프로그램 안내/신청 홈페이지",
+		"img":"images/img_portfolio04_01.jpg"
+	},
+	{
+		"title":"은성글로벌",
+		"modal":"modalList05",
+		"category":"web",
+		"label":"웹",
+		"role":"서브 디자인, 코딩",
+		"ex":"미용솔루션 일문 홈페이지",
+		"img":"images/img_portfolio05_01.jpg"
+	},
+	{
+		"title":"한화생명 언더라이팅 프로젝트",
+		"modal":"modalList06",
+		"category":"responsive",
+		"label":"반응형웹",
+		"role":"내부솔루션 고객사 커스터마이징 디자인, 코딩",
+		"ex":"한화생명 언더라이팅 프로젝트",
+		"img":"images/img_portfolio06_00.jpg"
+	},
+	{
+		"title":"미래에셋 금융서비스 상담시스템",
+		"modal":"modalList07",
+		"category":"etc",
+		"label":"내부시스템",
+		"role":"내부솔루션 고객사 커스터마이징 디자인, 코딩",
+		"ex":"미래에셋 금융서비스 상담시스템",
+		"img":"images/img_portfolio07_00.jpg"
+	},
+	{
+		"title":"잡앤조이",
+		"modal":"modalList08",
+		"category":"mobile",
+		"label":"모바일",
+		"role":"코딩",
+		"ex":"커뮤니티 모바일앱",
+		"img":"images/img_portfolio08_00.jpg"
+	},
+	{
+		"title":"화랑신협",
+		"modal":"modalList09",
+		"category":"web",
+		"label":"웹",
+		"role":"디자인, 코딩 서브",
+		"ex":"신협 홈페이지",
+		"img":"images/img_portfolio09_01.jpg"
+	},
+	{
+		"title":"ANC관세법인",
+		"modal":"modalList10",
+		"category":"web",
+		"label":"웹",
+		"role":"디자인, 코딩",
+		"ex":"관세법인 홈페이지",
+		"img":"images/img_portfolio10_01.jpg"
+	},
+	{
+		"title":"스마트스와치",
+		"modal":"modalList11",
+		"category":"etc",
+		"label":"관리자",
+		"role":"디자인, 코딩",
+		"ex":"원단주문/관리 관리자페이지",
+		"img":"images/img_portfolio11_01.jpg"
+	},
+	{
+		"title":"법무법인 동화",
+		"modal":"modalList12",
+		"category":"mobile",
+		"label":"모바일",
+		"role":"디자인, 코딩",
+		"ex":"법무법인 모바일 홈페이지",
+		"img":"images/img_portfolio12_00.jpg"
+	},
+	{
+		"title":"청주대학교 항공운항과",
+		"modal":"modalList13",
+		"category":"web",
+		"label":"웹",
+		"role":"서브 디자인, 코딩",
+		"ex":"대학학과 홈페이지",
+		"img":"images/img_portfolio13_01.jpg"
+	},
+	{
+		"title":"픽스폰",
+		"modal":"modalList14",
+		"category":"web",
+		"label":"웹",
+		"role":"디자인, 코딩",
+		"ex":"핸드폰수리점 홈페이지",
+		"img":"images/img_portfolio14_01.jpg"
+	},
+	{
+		"title":"픽스폰",
+		"modal":"modalList15",
+		"category":"mobile",
+		"label":"모바일",
+		"role":"디자인, 코딩",
+		"ex":"핸드폰수리점 모바일 홈페이지",
+		"img":"images/img_portfolio15_00.jpg"
+	},
+	{
+		"title":"기업은행 PEF종합관리시스템",
+		"modal":"modalList16",
+		"category":"etc",
+		"label":"내부시스템",
+		"role":"내부종합관리시스템 디자인, 코딩",
+		"ex":"기업은행 PEF종합관리시스템",
+		"img":"images/img_portfolio16_00.jpg"
+	},
+	{
+		"title":"해방",
+		"modal":"modalList17",
+		"category":"etc",
+		"label":"관리자",
+		"role":"코딩",
+		"ex":"부동산관리/매물정보 앱 관리자페이지",
+		"img":"images/img_portfolio17_01.jpg"
+	},
+	{
+		"title":"스타호스텔",
+		"modal":"modalList18",
+		"category":"web",
+		"label":"웹",
+		"role":"디자인, 코딩",
+		"ex":"게스트하우스 홈페이지",
+		"img":"images/img_portfolio18_01.jpg"
+	},
+	{
+		"title":"위너클릭 쇼핑몰",
+		"modal":"modalList19",
+		"category":"web",
+		"label":"웹",
+		"role":"코딩",
+		"ex":"광고/마케팅사 자사솔루션 쇼핑몰",
+		"img":"images/img_portfolio19_01.jpg"
+	},
+	{
+		"title":"D-chat",
+		"modal":"modalList20",
+		"category":"mobile",
+		"label":"모바일",
+		"role":"디자인, 가이드",
+		"ex":"채팅앱",
+		"img":"images/img_portfolio20_00.jpg"
+	},
+	{
+		"title":"국가자금세탁포털",
+		"modal":"modalList21",
+		"category":"etc",
+		"label":"내부시스템",
+		"role":"디자인",
+		"ex":"공공기관 내부시스템",
+		"img":"images/img_portfolio21_01.jpg"
+	},
+	{
+		"title":"3D업앤다운",
+		"modal":"modalList22",
+		"category":"web",
+		"label":"웹",
+		"role":"디자인",
+		"ex":"3D프린팅 커뮤니티 및 마켓",
+		"img":"images/img_portfolio22_01.jpg"
+	},
+	{
+		"title":"동탄e닷컴",
+		"modal":"modalList23",
+		"category":"mobile",
+		"label":"모바일",
+		"role":"디자인",
+		"ex":"지역상가 정보공유 앱",
+		"img":"images/img_portfolio23_00.jpg"
+	}
+]

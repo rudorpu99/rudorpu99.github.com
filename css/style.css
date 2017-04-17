@@ -1,0 +1,143 @@
+/*헤더*/
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{font-size:inherit;margin:0px}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-right:0px;margin-left:0px}.job{font-family:"NanumBarunGothic";font-size:18px;color:#939598;margin-left:18px}
+.nav.navbar-nav.navbar-right{padding:48px 0px 16px}
+.nav.navbar-nav.navbar-right li a{padding:0px 14px;font-size:18px;font-family:Nanum Gothic;font-weight:600;color:#58595b}
+.nav.navbar-nav.navbar-right li a:hover,.nav.navbar-nav.navbar-right li a:active,.nav.navbar-nav.navbar-right li a:focus{color:#db4153}
+.navbar-toggle {position:absolute;right:15px;margin-right:0px;margin-top:10px}
+@media all and (max-width:768px){
+	.navbar > .container{width:100%}
+}
+
+/*메인_비쥬얼*/
+section{min-height:936px;padding:90px 0px}
+section.main{padding:0px}
+.main{height:936px;background:url("../images/bg_main.jpg") 0 0 repeat-x;position:relative}
+.jumbotron{padding:250px 0px 0px!important;height:936px;background:url("../images/bg_mainVi.png") 51% 100% no-repeat;text-align:center}
+.jumbotron h1{text-align:center;color:#fff;opacity:.9;filter:alpha(opaciy=90);line-height:100px;margin-bottom:15px;font-size:21px!important;font-weight:200;display:block}
+.jumbotron span{font-family:'NanumSquareB';background:url(/images/bg_mainTitle.png) 0px 0px repeat;padding:0px 10px}
+.jumbotron .line1{font-size:4.3em}
+.jumbotron .line2{font-size:4.0em}
+.jumbotron .line3{font-size:4.7em;line-height:.9em;padding-bottom:10px}
+
+/*메인_컨텐츠*/
+section h2{font-weight:700;color:#58595b;font-size:40px;line-height:52px;background:url("../images/bg_h2.gif") 0% 100% repeat-x;display:table;margin:50px auto 70px}
+#aboutMe dl{overflow:hidden;margin-bottom:30px}
+#aboutMe dt{color:#414042;font-size:16px;font-weight:700;line-height:33px;padding-left:0px}
+#aboutMe dd{color:#58595b;font-size:16px;font-weight:400;line-height:33px;padding:0px}
+#aboutMe h3{background:url("../images/bg_h3_aboutMe.gif") 0% 0% no-repeat;color:#58595b;font-size:23px;font-weight:700;line-height:51px;display:inline-block}
+#aboutMe p{color:#58595b;font-size:16px;line-height:24px}
+#career ul{padding:0px}
+#career ul li{border:1px solid #d1d3d4;overflow:hidden;margin-bottom:18px}
+#career .img_wrap{padding:0px;height:175px;overflow:hidden;border-right:1px solid #d1d3d4}
+#career .img_wrap.full{width:100%;border-bottom:1px solid #d1d3d4;border-right:none}
+#career .img_wrap img{display:block}
+.career_more{background-image:url("../images/btn_career_more.gif");border:0px;padding:0px;position:absolute;width:29px;height:29px;bottom:0px;right:0px;font-size:0px}
+.career_more:hover,.career_more:active,.career_more:focus{background-image:url("../images/btn_career_moreH.gif")}
+.career_more.close{background-image:url("../images/btn_career_close.gif")}
+.career_more.close:hover,.career_more.close:active,.career_more.close:focus{background-image:url("../images/btn_career_closeH.gif")}
+#career .text_wrap{padding:2px 33px}
+#career .text_wrap h3{background:url("../images/bg_career_h3.png") 0% 0% no-repeat;font-size:16px;color:#fff;line-height:33px;padding:0px 6px 4px}
+#career .text_wrap dl{}#career .text_wrap dt{color:#58595b;font-size:16px;line-height:24px;font-weight:700}
+#career .text_wrap dd{color:#58595b;font-size:16px;line-height:24px;font-weight:400}
+#portfolio #gallery-filter{margin-bottom:35px}
+#portfolio #gallery-filter > button{color:#58595b;padding:0px 15px;font-size:16px;margin:0px 10px}
+#portfolio #gallery-filter > button.active{color:#fff;background-color:#db4153}
+#portfolio .load-more{color:#fff;background-color:#db4153;margin:0px auto;display:block;border-radius:0px;margin-top:70px;min-width:160px}
+#portfolio .portfolio_list{padding:0px}
+#portfolio .portfolio_list > li{float:left;border:1px solid #bcbec0;overflow:hidden;padding:0px;margin:.5%;background-color:#fff;cursor:pointer}
+#portfolio .portfolio_list > li > a{text-decoration:none;color:#58595b;display:inline-block;width:100%}
+#portfolio .gallery-item{}#portfolio .gallery-item.is-loading{opacity:0}
+
+/* clear fix */
+#portfolio:after {content:'';display:block;clear:both}
+@media screen and (min-width:992px){
+	#portfolio .portfolio_list > li{width:24%}
+}
+@media screen and (max-width:975px){
+	#career .img_wrap{border-bottom:1px solid #d1d3d4}
+}
+@media screen and (max-width:992px) and (min-width:760px) {
+	#portfolio .portfolio_list > li{width:32.33%}
+}
+@media screen and (max-width:760px) and (min-width:450px) {
+	#portfolio #gallery-filter > button{padding:0px 10px;margin:0px 5px}
+	#portfolio .portfolio_list > li{width:49%}
+}
+@media screen and (max-width:450px) {
+	#portfolio #gallery-filter > button{padding:0px 5px;margin:0px 0px}
+	#portfolio .portfolio_list > li {width:99%;margin:.5%}
+}
+#portfolio .portfolio_list .thumb{border-bottom:1px solid #bcbec0}
+#portfolio .portfolio_list .thumb img{width:100%}
+#portfolio .portfolio_list .con_list{margin:0px;padding:15px;overflow:hidden}
+#portfolio .portfolio_list dt{font-size:18px;font-family:NanumBarunGothic;margin-bottom:7px;font-weight:normal}
+#portfolio .portfolio_list .label{background-color:#58595b;font-weight:400;color:#fff;padding:4px 5px;float:left;margin-right:5px;font-size:13px;line-height:13px;border-radius:0px}
+#portfolio .portfolio_list .role{font-size:15px;color:#58595b;font-family:NanumBarunGothicLight}
+#portfolio .portfolio_list .ex{color:#939598;font-family:NanumBarunGothicLight;font-size:15px;margin-top:12px}
+
+@media screen and (max-width:1165px) and (min-width:990px) {
+	.modal-lg {width:900px}
+}
+
+#myModal h3{font-family:NanumBarunGothic;font-size:24px;margin:0px 0px 8px;color:#414042}
+#myModal .close{position:absolute;top:22px;right:22px;width:28px;height:28px;background:url("/images/btn_close.gif") 0px 0px  no-repeat;border:none;font-size:0px;display:inline-block;line-height:28px;opacity:1}
+#myModal .modal-body {padding:75px 30px}
+#myModal p{color:#6d6e71;font-size:16px;margin-bottom:6px}
+#myModal .link{font-size:14px;color:#6d6e71;background:url("/images/ico_link.gif") 0px 3px  no-repeat;padding-left:20px}
+#myModal dl{padding:30px 0px 20px;overflow:hidden;margin:0px}
+#myModal dl dt,#myModal dl dd{padding:0px}
+#myModal dt{color:#58595b;font-size:17px;font-weight:600;margin-bottom:4px}
+#myModal dd{font-size:16px;color:#6d6e71;margin-bottom:13px}
+#myModal .carousel-indicators {position:relative;bottom:inherit;left:auto;z-index:15;width:100%;padding:0px;margin:0px;text-align:left;list-style:none;overflow:hidden;display:inline-block}
+#myModal .carousel-control{color:#ddd}
+
+/*contacts*/
+#contacts p{font-size:18px;line-height:28px;color:#58595b;margin-bottom:50px}
+#contacts table{border-top:3px solid #db4153}
+#contacts table th{color:#58595b;font-size:20px;font-weight:400;padding:12px 10px 12px 20px}
+#contacts table td{padding:4px}
+#contacts table .form-control{border-radius:0px;border:1px solid #d1d3d4;font-size:18px;padding:12px}
+#contacts table input[type="text"]{height:46px}
+#contacts table label{font-weight:normal}
+#contacts form .btn{border-radius:0px;width:143px;font-size:20px;padding:12px 0px}
+footer{color:#939598;font-size:14px;background-color:#e6e7e8;border-top:1px solid #d1d3d4;padding:18px 0px}
+footer p.html5Mark{margin-top:10px}
+
+@media (max-width:768px){
+	.container {width:100%}
+}
+@media (max-width:750px){
+	.navbar > .container {padding:0px}
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand,.navbar > .container .navbar-brand, .navbar-brand {padding:20px 15px 20px}
+}
+
+/*테블릿기기*/
+@media screen and (max-width:994px) and (min-width:753px) {
+	.nav.navbar-nav.navbar-right {padding-top:0px}
+}
+@media screen and (max-width:750px) {
+	.navbar-collapse{padding:0px}
+	.nav.navbar-nav.navbar-right {padding:0px;margin:0px}
+	.nav > li {padding:15px;text-align:center}
+}
+@media (max-width:550px) {
+	.job{display:block;margin-left:0px;margin-top:10px}
+}
+
+/*모바일기기*/
+@media only screen and (max-width:500px) {
+	.navbar-brand {padding:18px 0px 16px}
+	section {min-height:610px}
+	.main{height:610px}
+	.jumbotron {background-size:100%;padding:200px 0px 0px;height:610px}
+	.jumbotron h1 {line-height:2.8em}
+	.jumbotron .line1{font-size:2.1em}
+	.jumbotron .line2{font-size:2em}
+	.jumbotron .line3{font-size:2.2em;line-height:.9em;padding-bottom:10px}
+	footer{margin-top:20px}
+}
+@media only screen and (max-width:375px) {
+	#aboutMe .photo_wrap{width:100%}
+	#aboutMe .profile_wrap{width:100%}
+}

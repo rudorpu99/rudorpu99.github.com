@@ -1,0 +1,18 @@
+@font-face{
+font-family:"Nanum Gothic";
+src:url('../../fonts/NanumGothic.eot');
+src:url('../../fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+url('../../fonts/NanumGothic.woff') format('woff'),
+url('../../fonts/NanumGothic.TTF') format('truetype');
+url('../../fonts/NanumGothic.svg#NanumGothic') format('svg')
+src:local(※), url('../../fonts/NanumGothic.woff') format('woff');
+}
+
+
+html,body {
+	font-family: "Nanum Gothic";
+}
+
+.mt10{margin-top:10px;}
+
+thead{background-color:#ddd;}
