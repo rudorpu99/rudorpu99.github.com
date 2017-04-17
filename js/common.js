@@ -77,7 +77,7 @@ $(function(){
 				$.each(slicedData, function(i,item){
 					var itemHTML =
 						'<li id="' + item.modal + '" class="gallery-item is-loading">' +
-						'<a href="modal.php" target="_blank" onclick="return false;">' +
+						'<a href="modal.html" target="_blank" onclick="return false;">' +
 						'<div class="thumb"><img src="' + item.img + '" alt="' + item.title + " 시안" +'"></div>' +
 						'<dl class="con_list">' +
 							'<dt>' + item.title + '</dt>' +
