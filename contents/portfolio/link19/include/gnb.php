@@ -16,8 +16,8 @@
 	</div>
 	<div id="gnb">
 		<ul>
-			<li><a href="/contents/portfolio/link19/index.php"><h1>통합네트워크 광고플랫폼 위너클릭</h1></a></li>
-			<li><a href="/contents/portfolio/link19/online/online_list.php">온라인강의</a></li>
+			<li><a href="contents/portfolio/link19/index.php"><h1>통합네트워크 광고플랫폼 위너클릭</h1></a></li>
+			<li><a href="contents/portfolio/link19/online/online_list.php">온라인강의</a></li>
 			<li><a href="#">오프라인강의</a></li>
 			<li><a href="#">디자인</a></li>
 			<li><a href="#">프로그램</a></li>

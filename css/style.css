@@ -15,7 +15,7 @@ section.main{padding:0px}
 .main{height:936px;background:url("../images/bg_main.jpg") 0 0 repeat-x;position:relative}
 .jumbotron{padding:250px 0px 0px!important;height:936px;background:url("../images/bg_mainVi.png") 51% 100% no-repeat;text-align:center}
 .jumbotron h1{text-align:center;color:#fff;opacity:.9;filter:alpha(opaciy=90);line-height:100px;margin-bottom:15px;font-size:21px!important;font-weight:200;display:block}
-.jumbotron span{font-family:'NanumSquareB';background:url(/images/bg_mainTitle.png) 0px 0px repeat;padding:0px 10px}
+.jumbotron span{font-family:'NanumSquareB';background:url("../images/bg_mainTitle.png") 0px 0px repeat;padding:0px 10px}
 .jumbotron .line1{font-size:4.3em}
 .jumbotron .line2{font-size:4.0em}
 .jumbotron .line3{font-size:4.7em;line-height:.9em;padding-bottom:10px}
@@ -83,10 +83,10 @@ section h2{font-weight:700;color:#58595b;font-size:40px;line-height:52px;backgro
 }
 
 #myModal h3{font-family:NanumBarunGothic;font-size:24px;margin:0px 0px 8px;color:#414042}
-#myModal .close{position:absolute;top:22px;right:22px;width:28px;height:28px;background:url("/images/btn_close.gif") 0px 0px  no-repeat;border:none;font-size:0px;display:inline-block;line-height:28px;opacity:1}
+#myModal .close{position:absolute;top:22px;right:22px;width:28px;height:28px;background:url("../images/btn_close.gif") 0px 0px  no-repeat;border:none;font-size:0px;display:inline-block;line-height:28px;opacity:1}
 #myModal .modal-body {padding:75px 30px}
 #myModal p{color:#6d6e71;font-size:16px;margin-bottom:6px}
-#myModal .link{font-size:14px;color:#6d6e71;background:url("/images/ico_link.gif") 0px 3px  no-repeat;padding-left:20px}
+#myModal .link{font-size:14px;color:#6d6e71;background:url("../images/ico_link.gif") 0px 3px  no-repeat;padding-left:20px}
 #myModal dl{padding:30px 0px 20px;overflow:hidden;margin:0px}
 #myModal dl dt,#myModal dl dd{padding:0px}
 #myModal dt{color:#58595b;font-size:17px;font-weight:600;margin-bottom:4px}

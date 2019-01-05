@@ -5,6 +5,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <html lang="ko">
 <title>위너클릭 쇼핑몰</title>
-<link rel="stylesheet" type="text/css" href="/contents/portfolio/link19/css/jquery.bxslider.css"/>
-<link rel="stylesheet" type="text/css" href="/contents/portfolio/link19/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="contents/portfolio/link19/css/jquery.bxslider.css"/>
+<link rel="stylesheet" type="text/css" href="contents/portfolio/link19/css/style.css"/>
 </head>

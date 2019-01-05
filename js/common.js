@@ -108,7 +108,7 @@ $(function(){
 						var clickedID = this.id;
 						var clickedIDNumber = clickedID.substr(9,2);
 						$("#myModal").modal({backdrop: true});
-						$("#pofol_wrap").load('/contents/portfolio/modal_portfolio'+clickedIDNumber+'.html');
+						$("#pofol_wrap").load('contents/portfolio/modal_portfolio'+clickedIDNumber+'.html');
 
 					});
 					$('#myModal .close').click(function(){

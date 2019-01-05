@@ -1,15 +1,15 @@
 <?
-	include_once $_SERVER['DOCUMENT_ROOT'] . '/contents/portfolio/link19/include/head.php';
+	include_once $_SERVER['DOCUMENT_ROOT'] . 'contents/portfolio/link19/include/head.php';
 ?>
 <?
-	include_once $_SERVER['DOCUMENT_ROOT'] . '/contents/portfolio/link19/include/gnb.php';
+	include_once $_SERVER['DOCUMENT_ROOT'] . 'contents/portfolio/link19/include/gnb.php';
 ?>
 <div id="container">
 <?
-	include_once $_SERVER['DOCUMENT_ROOT'] . '/contents/portfolio/link19/lnb/head.php';
+	include_once $_SERVER['DOCUMENT_ROOT'] . 'contents/portfolio/link19/lnb/head.php';
 ?>
 
-<script type="text/javascript" src="/contents/portfolio/link19/js/first.js"></script>
+<script type="text/javascript" src="contents/portfolio/link19/js/first.js"></script>
 	<div id="contents">
 
 
@@ -222,6 +222,6 @@
 
 
 <?
-	include_once $_SERVER['DOCUMENT_ROOT'] . '/contents/portfolio/link19/include/footer.php';
+	include_once $_SERVER['DOCUMENT_ROOT'] . 'contents/portfolio/link19/include/footer.php';
 ?>
 
