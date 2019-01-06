@@ -205,5 +205,105 @@
 		"role":"디자인",
 		"ex":"지역상가 정보공유 앱",
 		"img":"images/img_portfolio23_00.jpg"
+	},
+	{
+		"title":"CJmall",
+		"modal":"modalList24",
+		"category":"etc",
+		"label":"운영",
+		"role":"마크업",
+		"ex":"CJmall 프로모션 페이지 제작 및 운영",
+		"img":"images/img_portfolio24_00.jpg"
+	},
+	{
+		"title":"올리브영",
+		"modal":"modalList25",
+		"category":"etc",
+		"label":"운영",
+		"role":"마크업",
+		"ex":"올리브영 프로모션 페이지 제작 및 운영",
+		"img":"images/img_portfolio25_00.jpg"
+	},
+	{
+		"title":"웹젠",
+		"modal":"modalList26",
+		"category":"etc",
+		"label":"운영",
+		"role":"마크업",
+		"ex":"웹젠 프로모션 페이지 제작 및 운영",
+		"img":"images/img_portfolio26_00.jpg"
+	},
+	{
+		"title":"한게임",
+		"modal":"modalList27",
+		"category":"etc",
+		"label":"운영",
+		"role":"마크업",
+		"ex":"한게임 프로모션 페이지 제작 및 운영",
+		"img":"images/img_portfolio27_00.jpg"
+	},
+	{
+		"title":"페이코",
+		"modal":"modalList28",
+		"category":"etc",
+		"label":"운영",
+		"role":"마크업",
+		"ex":"페이코 프로모션 페이지 제작 및 운영",
+		"img":"images/img_portfolio28_00.jpg"
+	},
+	{
+		"title":"토스트",
+		"modal":"modalList29",
+		"category":"etc",
+		"label":"운영",
+		"role":"마크업",
+		"ex":"토스트 프로모션 페이지 제작 및 운영",
+		"img":"images/img_portfolio29_00.jpg"
+	},
+	{
+		"title":"페이코 로그인/회원",
+		"modal":"modalList30",
+		"category":"etc",
+		"label":"반응형",
+		"role":"마크업",
+		"ex":"페이코 로그인/회원",
+		"img":"images/img_portfolio30_00.jpg"
+	},
+	{
+		"title":"한게임 모바일 웹",
+		"modal":"modalList31",
+		"category":"mobile",
+		"label":"모바일",
+		"role":"마크업",
+		"ex":"한게임 모바일 웹 제작",
+		"img":"images/img_portfolio31_00.jpg"
+	},
+	{
+		"title":"KPGA STATS",
+		"modal":"modalList32",
+		"category":"responsive",
+		"label":"반응형웹",
+		"role":"마크업",
+		"ex":"KPGA STATS 반응형 웹 제작",
+		"img":"images/img_portfolio32_00.jpg"
+	},
+	{
+		"title":"PUBG 이스포츠",
+		"modal":"modalList33",
+		"category":"responsive",
+		"label":"반응형웹",
+		"role":"마크업",
+		"ex":"PUBG 이스포츠 반응형 웹 제작",
+		"img":"images/img_portfolio33_00.jpg"
+	},
+	{
+		"title":"토스트닷컴",
+		"modal":"modalList34",
+		"category":"responsive",
+		"label":"반응형웹",
+		"role":"마크업",
+		"ex":"토스트닷컴 반응형 웹 제작",
+		"img":"images/img_portfolio34_00.jpg"
 	}
+
 ]

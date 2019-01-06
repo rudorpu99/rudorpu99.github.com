@@ -28,8 +28,8 @@ section h2{font-weight:700;color:#58595b;font-size:40px;line-height:52px;backgro
 #aboutMe h3{position:relative;color:#58595b;font-size:23px;font-weight:700;line-height:51px;display:inline-block}
 #aboutMe h3:after{display: inline-block;position: absolute;top: 0;left: 0px;width: 29px;height: 3px;background-color: #db4153;content: ''}
 #aboutMe p{color:#58595b;font-size:16px;line-height:24px}
-#career ul{padding:0px}
-#career ul li{border:1px solid #d1d3d4;overflow:hidden;margin-bottom:18px}
+#career .lst_career{padding:0px}
+#career .career_item{border:1px solid #d1d3d4;overflow:hidden;margin-bottom:18px}
 #career .img_wrap{padding:0px;height:175px;overflow:hidden;border-right:1px solid #d1d3d4}
 #career .img_wrap.full{width:100%;border-bottom:1px solid #d1d3d4;border-right:none}
 #career .img_wrap img{display:block}
@@ -39,9 +39,12 @@ section h2{font-weight:700;color:#58595b;font-size:40px;line-height:52px;backgro
 .career_more.close:hover,.career_more.close:active,.career_more.close:focus{background-image:url("../images/btn_career_closeH.gif")}
 #career .text_wrap{padding:2px 33px}
 #career .text_wrap h3{background:url("../images/bg_career_h3.png") 0% 0% no-repeat;font-size:16px;color:#fff;line-height:33px;padding:0px 6px 4px}
-#career .text_wrap dl{}#career .text_wrap dt{color:#58595b;font-size:16px;line-height:24px;font-weight:700}
+#career .text_wrap dl{}
+#career .text_wrap dt{color:#58595b;font-size:16px;line-height:24px;font-weight:700}
 #career .text_wrap dd{color:#58595b;font-size:16px;line-height:24px;font-weight:400}
-#career .text_wrap dd:before{margin-right:4px;content:''}
+#career .lst_career_detail{padding:0;list-style:none}
+#career .lst_career_detail li{font-size:14px;line-height:20px}
+#career .lst_career_detail li:before{margin:0 7px 0 8px;content:'-'}
 #portfolio #gallery-filter{margin-bottom:35px}
 #portfolio #gallery-filter > button{color:#58595b;padding:0px 15px;font-size:16px;margin:0px 10px}
 #portfolio #gallery-filter > button.active{color:#fff;background-color:#db4153}
