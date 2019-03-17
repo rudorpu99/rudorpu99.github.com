@@ -65,7 +65,7 @@
 	{
 		"title":"잡앤조이",
 		"modal":"modalList08",
-		"category":"web",
+		"category":"mobile",
 		"label":"모바일",
 		"role":"코딩",
 		"ex":"커뮤니티 모바일앱",
@@ -101,7 +101,7 @@
 	{
 		"title":"법무법인 동화",
 		"modal":"modalList12",
-		"category":"web",
+		"category":"mobile",
 		"label":"모바일",
 		"role":"디자인, 코딩",
 		"ex":"법무법인 모바일 홈페이지",
@@ -128,7 +128,7 @@
 	{
 		"title":"픽스폰",
 		"modal":"modalList15",
-		"category":"web",
+		"category":"mobile",
 		"label":"모바일",
 		"role":"디자인, 코딩",
 		"ex":"핸드폰수리점 모바일 홈페이지",
@@ -173,7 +173,7 @@
 	{
 		"title":"D-chat",
 		"modal":"modalList20",
-		"category":"web",
+		"category":"mobile",
 		"label":"모바일",
 		"role":"디자인, 가이드",
 		"ex":"채팅앱",
@@ -200,47 +200,10 @@
 	{
 		"title":"동탄e닷컴",
 		"modal":"modalList23",
-		"category":"web",
+		"category":"mobile",
 		"label":"모바일",
 		"role":"디자인",
 		"ex":"지역상가 정보공유 앱",
 		"img":"images/img_portfolio23_00.jpg"
-	},
-	{
-		"title":"한게임 모바일 웹",
-		"modal":"modalList24",
-		"category":"web",
-		"label":"모바일",
-		"role":"마크업",
-		"ex":"한게임 모바일 웹 제작",
-		"img":"images/img_portfolio24_00.jpg"
-	},
-	{
-		"title":"KPGA STATS",
-		"modal":"modalList25",
-		"category":"responsive",
-		"label":"반응형웹",
-		"role":"마크업",
-		"ex":"KPGA STATS 반응형 웹 제작",
-		"img":"images/img_portfolio25_00.jpg"
-	},
-	{
-		"title":"PUBG 이스포츠",
-		"modal":"modalList26",
-		"category":"responsive",
-		"label":"반응형웹",
-		"role":"마크업",
-		"ex":"PUBG 이스포츠 반응형 웹 제작",
-		"img":"images/img_portfolio26_00.jpg"
-	},
-	{
-		"title":"토스트닷컴",
-		"modal":"modalList27",
-		"category":"responsive",
-		"label":"반응형웹",
-		"role":"마크업",
-		"ex":"토스트닷컴 반응형 웹 제작",
-		"img":"images/img_portfolio27_00.jpg"
 	}
-
 ]
